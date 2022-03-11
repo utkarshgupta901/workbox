@@ -12,7 +12,6 @@ postMerge:
   pattern:
     - "test/workbox-build/node/**/*.{js,mjs}"
     - "test/workbox-webpack-plugin/node/v4/**/*.{js,mjs}"
-    - "test/workbox-webpack-plugin/node/v5/**/*.{js,mjs}"
     - "test/workbox-cli/node/**/*.{js,mjs}"
     - "test/all/node/**/*.{js,mjs}"
   # strategy for trigerring builds for post-merge
@@ -24,7 +23,6 @@ preMerge:
   pattern:
     - "test/workbox-build/node/**/*.{js,mjs}"
     - "test/workbox-webpack-plugin/node/v4/**/*.{js,mjs}"
-    - "test/workbox-webpack-plugin/node/v5/**/*.{js,mjs}"
     - "test/workbox-cli/node/**/*.{js,mjs}"
     - "test/all/node/**/*.{js,mjs}"
 
